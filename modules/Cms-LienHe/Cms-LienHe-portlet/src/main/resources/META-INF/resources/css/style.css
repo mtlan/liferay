@@ -1,0 +1,91 @@
+.portlet-body {
+	margin: 15px;
+}
+
+.portlet-body input {
+	background-color: #fff;
+	border-color: #e7e7ed;
+}
+
+.portlet-body select {
+	background-color: #fff;
+	border-color: #e7e7ed;
+}
+
+.ct_icon {
+	text-align: center;
+}
+
+.Cus_EmBoxHeader {
+    background: url(../images/bgdot.png) repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    clear: both;
+    font-size: 13px;
+    height: 11px;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+.Cus_EmBoxHeader span {
+    background: url(../images/QuocHuy.png) no-repeat scroll left center #FBFAFA;
+    background-size: 7%;
+    color: #d92500;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 5px 5px 32px;
+    text-transform: uppercase;
+}
+
+.Cus_EmBoxHeader span a {
+	color: #009ae5;
+	text-decoration: none;
+}
+
+.Cus_EmBoxContainer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 130px;
+}
+
+.Cus_EmBoxItem {
+    border: 1px solid #f2f2f2;
+    float: left;
+    margin: 6px 3px 0 0;
+    overflow: hidden;
+    padding: 0 0 10px;
+    width: 24%;
+    height: 128px;
+}
+
+.Cus_EmBoxItem .IName {
+    background: none repeat scroll 0 0 #f2f2f2;
+    margin-bottom: 5px;
+    padding: 5px 0 3px 10px;
+    color: #585757;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Cus_EmBoxItem .IPosion {
+    background: url(../images/user.png) no-repeat scroll 5px center rgba(0, 0, 0, 0);
+    padding: 0 0 5px 30px;
+}
+
+.Cus_EmBoxItem .IPhone {
+    background: url(../images/fone.png) no-repeat scroll 5px center rgba(0, 0, 0, 0);
+    padding: 0 0 5px 30px;
+}
+
+.Cus_EmBoxItem .IEmail {
+    background: url(../images/email.png) no-repeat scroll 5px center rgba(0, 0, 0, 0);
+    padding: 0 0 5px 30px;
+}
+
+.Cus_EmBoxItem .IEmail a {
+    color: #862211;
+    text-decoration: none;
+}
+
+.Cus_EmBoxItem .IEmail a:hover {
+    color: #009ae5;
+}

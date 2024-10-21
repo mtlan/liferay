@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.contact.model.Department">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="dptId" type="long" />
+		<field name="dptName" type="String" />
+		<field name="dptDesc" type="String" />
+		<field name="dptStatus" type="long" />
+		<field name="dptDelete" type="long" />
+		<field name="dptcreateDate" type="Date" />
+		<field name="dptmodifiedDate" type="Date" />
+	</model>
+	<model name="com.contact.model.Person">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="psId" type="long" />
+		<field name="psName" type="String" />
+		<field name="psPosition" type="String" />
+		<field name="dptId" type="long" />
+		<field name="psPhone" type="String" />
+		<field name="psEmail" type="String" />
+		<field name="psStatus" type="long" />
+		<field name="psDelete" type="long" />
+		<field name="pscreate" type="Date" />
+		<field name="psmodifiedDate" type="Date" />
+	</model>
+</model-hints>

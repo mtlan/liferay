@@ -1,0 +1,12 @@
+Bundle-Name: Cms-LienHe-api
+Bundle-SymbolicName: com.contact.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.contact.exception,\
+	com.contact.model,\
+	com.contact.service,\
+	com.contact.service.persistence
+-check: EXPORTS
+-consumer-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}
+-includeresource: META-INF/service.xml=../Cms-LienHe-service/service.xml
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}
